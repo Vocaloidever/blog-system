@@ -1,0 +1,62 @@
+/* 全局样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #303133;
+  line-height: 1.6;
+  background-color: #f5f7fa;
+}
+
+a {
+  text-decoration: none;
+  color: #409EFF;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 15px;
+}
+
+.section-title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 20px;
+  background-color: #409EFF;
+  border-radius: 2px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.py-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
