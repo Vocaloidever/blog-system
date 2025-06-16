@@ -21,5 +21,5 @@ module.exports = defineConfig({
     }
   },
   // 如果部署到非根路径
-  publicPath: process.env.NODE_ENV === 'production' ? '/' : '/'
+  publicPath: process.env.NODE_ENV === 'production' ? '/blog-system/' : '/'
 })
